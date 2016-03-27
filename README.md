@@ -7,7 +7,7 @@
     composer require illuminate/database
     ```
 
-4.	Illuminate Events package
+4.	Install Illuminate Events package
 
     ```
     composer require illuminate/events
@@ -48,8 +48,14 @@
 10. Copy "My_Model.php" to /application/core
 11. Create new CI Model extend to My_Model
 12. Create new CI Controller
-13. Test & Debug.
-14. Done. :)
+13. Do composer update to mapping class, etc
+
+    ```
+    composer update
+    ```
+
+14. Test & Debug.
+15. Done. :)
 
 ### License
 [MIT License](https://github.com/expressodev/laravel-codeigniter-db/blob/master/LICENSE)
